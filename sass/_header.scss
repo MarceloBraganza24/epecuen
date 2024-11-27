@@ -1,0 +1,43 @@
+.header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 6vh 0vh 2vh 0vh;
+    &__title {
+        text-align: center;
+        font-size: 70px;
+    }
+    &__subTitle {
+        text-align: center;
+        font-size: 40px;
+    }
+    &__phrase {
+        font-size: 15px;
+        padding: 1vh 0vh;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+.header {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 6vh 0vh 2vh 0vh;
+    &__title {
+        text-align: center;
+        font-size: 45px;
+    }
+    &__subTitle {
+        text-align: center;
+        font-size: 25px;
+    }
+    &__phrase {
+        width: 90%;
+        text-align: justify;
+        font-size: 12px;
+        padding: 1vh 0vh;
+        justify-self: center;
+    }
+}
+}

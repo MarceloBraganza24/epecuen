@@ -1,0 +1,22 @@
+.footer {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 1vh 0vh;
+    &__copyrigth {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+.footer {
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    padding: 1vh 0vh;
+    &__copyrigth {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+}
