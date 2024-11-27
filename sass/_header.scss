@@ -12,10 +12,13 @@
         font-size: 40px;
     }
     &__phrase {
-        font-size: 15px;
-        padding: 1vh 0vh;
-        text-align: justify;
-        justify-self: center;
+        width: 100%;
+        height: auto;
+        @include disfc; 
+        &__prop {
+            font-size: 15px;
+            padding: 1vh 0vh;
+        }
     }
 }
 
@@ -34,11 +37,15 @@
         font-size: 25px;
     }
     &__phrase {
-        width: 90%;
-        text-align: justify;
-        font-size: 12px;
-        padding: 1vh 0vh;
-        justify-self: center;
+        width: 100%;
+        height: auto;
+        @include disfc; 
+        &__prop {
+            width: 90%;
+            font-size: 14px;
+            padding: 1vh 0vh;
+            text-align: justify;
+        }
     }
 }
 }

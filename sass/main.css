@@ -14,11 +14,13 @@
   background-color: whitesmoke;
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .simpleSeparatorContainer__simpleSeparator {
   width: 80%;
   border-top: 0.5vh solid black;
-  justify-self: center;
   border-radius: 50%;
 }
 
@@ -104,10 +106,15 @@
   font-size: 40px;
 }
 .header__phrase {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__phrase__prop {
   font-size: 15px;
   padding: 1vh 0vh;
-  text-align: justify;
-  justify-self: center;
 }
 
 @media (max-width: 480px) {
@@ -126,11 +133,17 @@
     font-size: 25px;
   }
   .header__phrase {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__phrase__prop {
     width: 90%;
-    text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
     padding: 1vh 0vh;
-    justify-self: center;
+    text-align: justify;
   }
 }
 .footer {
