@@ -107,6 +107,7 @@
   font-size: 15px;
   padding: 1vh 0vh;
   text-align: justify;
+  justify-self: center;
 }
 
 @media (max-width: 480px) {
